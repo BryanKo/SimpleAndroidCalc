@@ -96,9 +96,9 @@ public class btnCalc extends Fragment {
         btnDel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                var1 = Double.parseDouble(txtInsert.getText()+"");
-                currVar = String.valueOf(var1);
-                currVar = currVar.substring(0, currVar.length() - 3);
+                /*var1 = Double.parseDouble(txtInsert.getText()+"");*/
+                currVar = txtInsert.getText().toString();
+                currVar = currVar.substring(0, currVar.length() - 1);
                 txtInsert.setText(currVar+"");
             }
         });
