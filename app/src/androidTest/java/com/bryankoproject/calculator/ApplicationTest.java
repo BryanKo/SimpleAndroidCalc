@@ -1,4 +1,4 @@
-package com.bryankoproject.simplecalculator;
+package com.bryankoproject.calculator;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,4 +1,4 @@
-package com.bryankoproject.simplecalculator;
+package com.bryankoproject.calculator;
 
 import org.junit.Test;
 
